@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Switcher</title>
+        <meta charset="UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230526232825" />
+        <link rel="stylesheet" href="css/reset.min.css?_v=20230526232825" />
+        <link rel="stylesheet" href="css/style.min.css?_v=20230526232825" />
+        <link rel="stylesheet" href="css/quiz.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__wrapper">
+                    <div class="header__container">
+                        <a href="/" class="header__logo">
+                            <img src="img/logo.svg" alt="logo" />
+                        </a>
+                        <div class="header__menu menu">
+                            <div class="menu__container">
+                                <div class="header__lang">
+                                    <button class="header__lang-current">
+                                        EN
+                                        <img src="img/flags/UK.svg" class="header__lang-country" alt="UK" />
+                                    </button>
+                                    <ul class="header__lang-list">
+                                        <li class="header__lang-item">
+                                            <a href="" class="header__lang-link">
+                                                RU
+                                                <img src="img/flags/ru.svg" class="header__lang-country" alt="ru" />
+                                            </a>
+                                        </li>
+                                        <li class="header__lang-item">
+                                            <a href="" class="header__lang-link">
+                                                DE
+                                                <img src="img/flags/de.svg" class="header__lang-country" alt="de" />
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <nav class="menu__body">
+                                    <ul class="menu__list">
+                                        <li class="menu__item"><a href="#wallet" class="menu__link">Wallet</a></li>
+                                        <li class="menu__item"><a href="#exchange" class="menu__link">Exchange</a></li>
+                                        <li class="menu__item"><a href="#invest" class="menu__link">DeFi</a></li>
+                                        <li class="menu__item"><a href="#buy" class="menu__link">NFT</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="header__actions">
+                            <a href="" class="header__action btn btn_primary">Login</a>
+                            <a href="" class="molal__btn header__action btn btn_secondary icon-plus" data-trigger-modal="btn_modal" data-label-modal="modal2">Sign up</a>
+                        </div>
+                        <button type="button" class="menu__icon icon-menu">
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <main class="page">
+                <section class="main">
+                    <div class="main__container">
+                        <div class="main__offer">
+                            <h1 class="main__title title title_lg">
+                                <span>All your crypto here</span>
+                                <span>Wallet. Exchange.</span>
+                                <span>for&nbsp;Free!</span>
+                            </h1>
+                            <div class="main__cards">
+                                <div class="main__card">
+                                    <img src="img/main/card-1.svg" alt="card example" />
+                                </div>
+                                <div class="main__card">
+                                    <img src="img/main/card-2.svg" alt="card example" />
+                                </div>
+                                <div class="main__card">
+                                    <img src="img/main/card-2.svg" alt="card example" />
+                                </div>
+                            </div>
+                            <div class="main__label label">
+                                <div class="label__caption">Reg now - get 100 USDT!</div>
+                                <div class="label__text">100 USDT reward for early registration users&nbsp;after beta launch. <a href="">Learn more</a></div>
+                            </div>
+                        </div>
+                        <div class="main__examples">
+                            <div class="main__example">
+                                <picture
+                                    ><source srcset="img/main/bitcoin.webp" type="image/webp" />
+                                    <img src="img/main/bitcoin.png" alt="bitcoin"
+                                /></picture>
+                            </div>
+                            <div class="main__example">
+                                <picture
+                                    ><source srcset="img/main/wallet.webp" type="image/webp" />
+                                    <img src="img/main/wallet.png" alt="wallet"
+                                /></picture>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="wallet" class="wallet">
+                    <div class="wallet__container">
+                        <div class="wallet__body">
+                            <div class="wallet__column">
+                                <h2 class="wallet__title title">
+                                    Open your
+                                    <br />
+                                    Wallet
+                                </h2>
+                                <a href="" class="molal__btn wallet__btn btn btn_secondary btn_lg" data-trigger-modal="btn_modal" data-label-modal="modal1"> Get started now </a>
+                            </div>
+                            <div class="wallet__column">
+                                <h3 class="wallet__title title">
+                                    Switcher.Finance
+                                    <br />
+                                    Mobile app
+                                </h3>
+                                <div class="wallet__btns">
+                                    <div class="wallet__btn wallet__btn_soon">
+                                        <img src="img/wallet/btn-google.svg" alt="google" />
+                                    </div>
+                                    <div class="wallet__btn wallet__btn_soon">
+                                        <img src="img/wallet/btn-appstore.svg" alt="appstore" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wallet__decor">
+                        <img src="img/wallet/decor-1.png" class="wallet__decor-image" alt="decor" />
+                        <img src="img/wallet/decor-2.png" class="wallet__decor-image" alt="decor" />
+                    </div>
+                </section>
+                <section class="currency">
+                    <div class="currency__container">
+                        <h2 class="currency__title title title_md">
+                            <span class="title__color"> 30+ </span>
+                            Currency
+                            <br />
+                            in one wallet
+                        </h2>
+                        <a href="" class="molal__btn currency__btn try-btn" data-trigger-modal="btn_modal" data-label-modal="modal1">
+                            <img src="img/try-btn.svg" alt="try" />
+                        </a>
+                    </div>
+                    <div class="currency__app">
+                        <div class="currency__app-image">
+                            <picture
+                                ><source srcset="img/currency/01.webp" type="image/webp" />
+                                <img src="img/currency/01.png" alt="app"
+                            /></picture>
+                        </div>
+                        <div class="currency__app-image">
+                            <picture
+                                ><source srcset="img/currency/02.webp" type="image/webp" />
+                                <img src="img/currency/02.png" alt="app"
+                            /></picture>
+                        </div>
+                        <div class="currency__app-image">
+                            <picture
+                                ><source srcset="img/currency/03.webp" type="image/webp" />
+                                <img src="img/currency/03.png" alt="app"
+                            /></picture>
+                        </div>
+                        <div class="currency__app-image">
+                            <picture
+                                ><source srcset="img/currency/04.webp" type="image/webp" />
+                                <img src="img/currency/04.png" alt="app"
+                            /></picture>
+                        </div>
+                        <div class="currency__app-image">
+                            <picture
+                                ><source srcset="img/currency/05.webp" type="image/webp" />
+                                <img src="img/currency/05.png" alt="app"
+                            /></picture>
+                        </div>
+                    </div>
+                </section>
+                <section id="exchange" class="exchange">
+                    <div class="exchange__marquee marquee">
+                        <div class="marquee__content">
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                        </div>
+                    </div>
+                    <div class="exchange__body">
+                        <div class="exchange__wrapper">
+                            <div class="exchange__container">
+                                <h2 class="exchange__title title title_lg">
+                                    Instant
+                                    <br />
+                                    exchange <span class="title__color">in one app</span>
+                                </h2>
+                                <a href="" class="molal__btn exchange__btn btn btn_secondary btn_xl" data-trigger-modal="btn_modal" data-label-modal="modal1"> Get started now </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="exchange__marquee marquee marquee_blue">
+                        <div class="marquee__content">
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                        </div>
+                    </div>
+                </section>
+                <section id="invest" class="invest">
+                    <div class="invest__container">
+                        <div class="invest__main">
+                            <h2 class="invest__title title title_lg">
+                                <span class="title__color">Invest in DeFi </span>
+                                and control your income
+                            </h2>
+                            <a href="" class="molal__btn invest__btn try-btn" data-trigger-modal="btn_modal" data-label-modal="modal1">
+                                <img src="img/try-btn.svg" alt="try" />
+                            </a>
+                        </div>
+                        <div class="invest__items">
+                            <div class="invest__item">
+                                <img src="img/invest/01.svg" alt="invest" />
+                            </div>
+                            <div class="invest__item">
+                                <img src="img/invest/02.svg" alt="invest" />
+                            </div>
+                            <div class="invest__item">
+                                <img src="img/invest/03.svg" alt="invest" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="buy" class="buy">
+                    <div class="buy__container">
+                        <div class="buy__header">
+                            <h2 class="buy__title title title_md">
+                                Buy
+                                <br />
+                                Sell <span class="title__color">NFT</span>
+                            </h2>
+                            <a href="" class="molal__btn buy__btn try-btn" data-trigger-modal="btn_modal" data-label-modal="modal1">
+                                <img src="img/try-btn.svg" alt="try" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="buy__slider">
+                        <div class="buy__slider-row swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/01.webp" type="image/webp" />
+                                            <img src="img/buy/01.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/02.webp" type="image/webp" />
+                                            <img src="img/buy/02.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/03.webp" type="image/webp" />
+                                            <img src="img/buy/03.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/04.webp" type="image/webp" />
+                                            <img src="img/buy/04.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/05.webp" type="image/webp" />
+                                            <img src="img/buy/05.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/06.webp" type="image/webp" />
+                                            <img src="img/buy/06.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/07.webp" type="image/webp" />
+                                            <img src="img/buy/07.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/08.webp" type="image/webp" />
+                                            <img src="img/buy/08.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/09.webp" type="image/webp" />
+                                            <img src="img/buy/09.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/10.webp" type="image/webp" />
+                                            <img src="img/buy/10.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buy__slider-row swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/06.webp" type="image/webp" />
+                                            <img src="img/buy/06.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/07.webp" type="image/webp" />
+                                            <img src="img/buy/07.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/08.webp" type="image/webp" />
+                                            <img src="img/buy/08.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/09.webp" type="image/webp" />
+                                            <img src="img/buy/09.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/10.webp" type="image/webp" />
+                                            <img src="img/buy/10.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/01.webp" type="image/webp" />
+                                            <img src="img/buy/01.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/02.webp" type="image/webp" />
+                                            <img src="img/buy/02.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/03.webp" type="image/webp" />
+                                            <img src="img/buy/03.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/04.webp" type="image/webp" />
+                                            <img src="img/buy/04.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide buy__slide">
+                                    <div class="buy__slide-image">
+                                        <picture
+                                            ><source srcset="img/buy/05.webp" type="image/webp" />
+                                            <img src="img/buy/05.jpg" alt="NFT"
+                                        /></picture>
+                                    </div>
+                                    <div class="buy__slide-stats">
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">5555</div>
+                                            <div class="buy__slide-text">Items</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">0.042</div>
+                                            <div class="buy__slide-text">Floor price</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num icon-currency">235K</div>
+                                            <div class="buy__slide-text">Owners</div>
+                                        </div>
+                                        <div class="buy__slide-stat">
+                                            <div class="buy__slide-num">232.4</div>
+                                            <div class="buy__slide-text">Volume traded</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="about">
+                    <div class="about__marquee marquee">
+                        <div class="marquee__content">
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                        </div>
+                    </div>
+                    <div class="about__marquee marquee marquee_blue">
+                        <div class="marquee__content">
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                            <span class="marquee__text"> Get started </span>
+                        </div>
+                    </div>
+                    <div class="about__container">
+                        <h2 class="about__title title title_lg">
+                            Open your
+                            <br />
+                            account now! <span class="title__color">It's free. </span>
+                        </h2>
+                        <div class="about__subtitle">Switcher.Finance is a platform that helps people to trust in crypto and do it simple and transparent.</div>
+                        <div class="about__label label">
+                            <div class="label__caption">Reg now - get 100 USDT!</div>
+                            <div class="label__text">100 USDT reward for early registration users&nbsp;after beta launch. <a href="">Learn more</a></div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="modal__main-wrapper" id="modal2" data-modal="modal">
+                    <div class="modal__content modal__content-auth" data-important="true">
+                      <button type="button" class="closeModal" data-close="modal">
+                        <span></span>
+                        <span></span>
+                      </button>
+                      <div class="authorization">
+                        <div class="authorization-left">
+                          <div class="authorization-left__wrappper">
+                            <div class="blue__figure"></div>
+                            <div class="authorization-left__figure-big">
+                              <img class="authorization-left__figure-big-picBig" src="./img/big-figure.svg" alt="">
+                            </div>
+                            <div class="authorization-left__basic">
+                              <div class="crypto crypto_bitcoin">
+                                <div class="crypto__pic-block crypto__pic-block_btc">
+                                  <img class="crypto__pic" src="./img/btcoin-big.svg" alt="">
+                                </div>
+                                <div class="crypto__info">
+                                  <div class="crypto__info-top">
+                                    <div class="crypto__token-ico"></div>
+                                    <h3 class="crypto__token-name">Bitcoin</h3>
+                                    <p class="crypto__token-smallName">BTC</p>
+                                  </div>
+                                  <div class="crypto__info-middle">
+                                    <p class="crypto__token-price">$ 28,840.76</p>
+                                    <span class="crypto__token-percent">+1,71%</span>
+                                  </div>
+                                  <div class="crypto__info-bottom">
+                                    <div class="crypto__token-button c_t-b1">Buy</div>
+                                    <div class="crypto__token-button c_t-b2">Trade</div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="crypto crypto_wallet">
+                                <div class="crypto__pic-block crypto__pic-block_wallet">
+                                  <img class="crypto__pic" src="./img/card-fig.svg" alt="">
+                                </div>
+                                <div class="crypto__info">
+                                  <div class="crypto__info-top">
+                                    <div class="crypto__token-ico"></div>
+                                    <h3 class="crypto__token-name">Bitcoin</h3>
+                                  </div>
+                                  <div class="crypto__info-middle crypto__info-middle_wallet">
+                                    <p class="crypto__token-price">Current value</p>
+                                    <span class="crypto__token-percent">$30,540.00</span>
+                                  </div>
+                                  <div class="crypto__info-bottom">
+                                    <div class="crypto__token-button c_t-b1">Buy</div>
+                                    <div class="crypto__token-button c_t-b2">Trade</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="authorization-left__figure-small">
+                              <img class="authorization-left__figure-small-picSmall" src="./img/small-figure.svg" alt="">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="authorization-right">
+                          <div class="authorization-right__wrapper">
+                            <h1 class="authorization-right__title">Create account</h1>
+                            <p class="authorization-right__desc">All your crypto here. Wallet. Exchange. </p>
+                            <div class="authorization-right__inner">
+                              <form action="#" class="form" id="form">
+                      
+                                <div class="form__row sign-up__row">
+                                  <div class="form__item form__field_cell5">
+                                    <a href="#" class="molal__btn quick-authorization-btn" data-trigger-modal="btn_modal" data-label-modal="modal1" >Quick registration</a>
+                                    <button class="form__btn">Sign up</button>
+                                  </div>
+                                  <div class="double--sign-up">
+                                    <a href="#" class="double--sign-up__link">Already have an account? <span>Sign up</span></a>
+                                  </div>
+                                </div>
+                                <div class="form__row line-decor">
+                                  or
+                                </div>
+                                <div class="form__row">
+                                  <div class="form__item form__field_cell6 other_registrations">
+                                    <div class="other-btn google-ico-btn">
+                                      <img src="./img/svg/google-ico.svg" alt="google ico">
+                                      <p class="other-text">Sign in with Google</p>
+                                    </div>
+                                    <div class="other-btn facebook-ico-btn">
+                                      <img src="./img/svg/facebook-ico.svg" alt="facebook ico">
+                                      <p class="other-text">Sign in with Facebook</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <div class="modal__main-wrapper" id="modal1" data-modal="modal">
+                    <div class="modal__content" data-important="true">
+                      <button type="button" class="closeModal" data-close="modal">
+                        <span></span>
+                        <span></span>
+                      </button>
+                      <div class="modal__item">
+                        <form class="quiz__form" id="formQuiz">
+                          <div class="modal__item-header">
+              
+                            <h2 class="quiz__form-title">Ответьте пожалуйста на несколько вопросов
+                              <span class="contQ">
+                                <span class="currentQ">1</span>/<span class="allQ">0</span>
+                              </span>
+                            </h2>
+              
+                              <div class="progress_bar">
+                                <div class="progress"></div>
+                              </div>
+                          </div>
+                          <div class="modal__item-body">
+              
+                                <div class="questions">
+              
+                                  <div class="question active">
+                                    <label for="forEmail" class="labelForm">
+                                      <h2 class="question__title">Введите ваш email</h2>
+                                         <input placeholder="Ваш email" class="form-input field__email _req _email quiz_email" name="email" id="forEmail2" type="text">
+                                    </label>
+                                  </div>
+              
+                                  <div class="question">
+                                    <h2 class="question__title">Выбрать что для клиента привлеекательннее:</h2>
+                                    <label class="question__answer"><div class="question__customCheckbox">Средний риск / Выше доходность</div><input type="checkbox" name="what-do-you-like" value="vysoky-risk"></label>
+                                    <label class="question__answer"><div class="question__customCheckbox">Низкий риск / Ниже доходность</div><input type="checkbox" name="what-do-you-like" value="nizkiy-risk"></label>
+                                  </div>
+              
+                                  <div class="question">
+                                    <h2 class="question__title">Какой обьем вы планиурете использовать</h2>
+                                    <div class="question__answers">
+                                      <label class="question__answer"><div class="question__customCheckbox col3">$100-400</div><input type="checkbox" name="volum[]" value="$100-400"></label>
+                                      <label class="question__answer"><div class="question__customCheckbox col3">$500-1000</div><input type="checkbox" name="volum[]" value="$500-1000"></label>
+                                      <label class="question__answer"><div class="question__customCheckbox col3">$1000+</div><input type="checkbox" name="volum[]" value="$1000+"></label>
+                                    </div>
+                                  </div>
+                                  
+                                  <div class="question">
+                                    <!-- <h2 class="question__title question__title_goodbye">По всем вопросам:</h2> -->
+                                    <div class="question__help">
+                                      <h1 class="question__help-title">По всем вопросам:</h1>
+                                      <a href="https://t.me/SwitcherFinanceArgentina" class="question__link-tg">Telegram @rigayaya                         <img src="./img/tg-ico.png" alt="" class="question__link-ico"></a>
+                                    </div>
+                                    <div class="question__image">
+                                      <img src="./img/figure-quiz.svg" alt="img quiz" class="question__figure">
+                                    </div>
+                                  </div>
+              
+                                </div>
+              
+                          </div>
+                          <div class="modal__item-footer">
+                            <div class="quiz_blockControl">
+                                <div class="btnControl-wrap">
+                                    <button type="button" class="btn-quiz btn__prev">Назад</button>
+                                    <span></span>
+                                </div>
+                                <div class="btnControl-wrap">
+                                    <button type="button" class="btn-quiz btn__next disable">Вперед</button>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="btn__submit-form">
+                              <button type="submit" class="btn-quiz btn__sub">Завершить регистрацию</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="footer__logo">
+                        <img src="img/logo.svg" alt="logo" />
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="#wallet" class="footer__menu-link">Wallet</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#exchange" class="footer__menu-link">Exchange</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#invest" class="footer__menu-link">DeFi</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#buy" class="footer__menu-link">NFT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer__policy">
+                        <a href="" class="footer__policy-link">Privacy Policy</a>
+                        <a href="" class="footer__policy-link">Terms of Use</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230526232825"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js?_v=20230526232825"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js?_v=20230526232825"></script>
+        <script src="js/app.min.js?_v=20230526232825"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
